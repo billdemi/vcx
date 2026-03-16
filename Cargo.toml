@@ -1,0 +1,23 @@
+[package]
+name = "vcx"
+version = "0.1.0"
+edition = "2021"
+description = "Lint, sync, and manage AI coding context files across all major tools"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+toml = "0.8"
+glob = "0.3"
+walkdir = "2"
+similar = "2"
+comfy-table = "7"
+colored = "2"
+sha2 = "0.10"
+regex = "1"
+thiserror = "1"
+anyhow = "1"
+chrono = { version = "0.4", features = ["serde"] }

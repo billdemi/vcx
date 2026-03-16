@@ -1,0 +1,11 @@
+---
+description: TypeScript conventions
+alwaysApply: true
+globs: "**/*.ts,**/*.tsx"
+---
+
+# TypeScript Rules
+
+Use tabs for indentation.
+Prefer double quotes for strings.
+Use yarn as the package manager.
