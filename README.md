@@ -1,5 +1,7 @@
 # VCX — Vibe Coding conteXt Manager
 
+[中文文档](README_zh.md)
+
 > Lint, sync, and manage AI coding context files across all major tools.
 
 VCX is the **ESLint for AI context files**. It detects conflicts, stale references, and duplicates across your AI coding tool configurations — Claude Code, Cursor, Copilot, Windsurf, Aider, and more.
